@@ -1,0 +1,23 @@
+{
+  "name": "ctr1_facade",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Castrillon",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-validator": "^5.0.3",
+    "jsonwebtoken": "^8.2.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.4",
+    "uuid": "^3.2.1"
+  }
+}
