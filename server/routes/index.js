@@ -11,7 +11,7 @@ const facadeController = require('../controllers/facadeController');
 const photoPointController = require('../controllers/photoPointController');
 
 //auth
-router.post('/login', catchErrors(authController.login));
+router.post('/token', catchErrors(authController.login));
 
 //user
 router.post('/company/:id/users', authHandler, userController.createUser);
